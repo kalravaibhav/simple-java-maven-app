@@ -1,0 +1,7 @@
+Started by user [8mha:////4Haz0tuJdNsmYY01HdI0ZoGppBSxc9Vj6GOm5i68gAm9AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/Mattermost_Job
+[Mattermost_Job] $ /bin/sh -xe /tmp/jenkins3275798539986318567.sh
++ echo Testing Notification
+Testing Notification
+Finished: SUCCESS

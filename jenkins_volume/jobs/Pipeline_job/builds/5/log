@@ -1,0 +1,152 @@
+Started by user [8mha:////4Haz0tuJdNsmYY01HdI0ZoGppBSxc9Vj6GOm5i68gAm9AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+[8mha:////4F9hFt8lb14A4xtONg63Uv9kQ7EPusvMI8zsusDtltfBAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4B27UZFVG1yw7DFqgFog4fm6suLoAEvOtMH3N7FbNSgaAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4HmCxfkv7JPsf/kukjIAfYPe0P8Yc5PueCWTqkhzuOBQAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/workspace/Pipeline_job
+[8mha:////4PQ6GHvTIpyJZRNQlS6qbyBxL/+eiWXstvV5hCEOereDAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4HxwTcsnzYILP/GgOX8t8wVfKidEDlDL+c1dVzxd+ApJAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4Jk4NAwSuZcGJ6HeD6ws5MdNVOoSlWXZbMavSCvq2WyeAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Cleanup)
+[8mha:////4DEm/cUzDyMPkkCTMVUWjV8qpngV6TKo9dw+cC2agGn/AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] deleteDir
+[8mha:////4Le/s/76cyKRqoIsffBHnAagEFAcTcGzUsw83A+9ST19AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4GquBaYYVAXxbHbFutmPrbQ3yffRsnAmTEXt4i5Y56xgAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4J6TiFN/qsixHIKFhffYbweY59ZFrHymK5epsNdyYnphAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] stage
+[8mha:////4GNQ1Tp39SQuKU0tkM+NJfbnpm3vG49d7juIYpBAsojrAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] { (Clone repo)
+[8mha:////4MfsaIj82niNLYfcVfmwSLn1sqo0WBR0QX2Cr8FYzrJVAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] sh
++ git clone https://github.com/jenkins-docs/simple-java-maven-app.git
+Cloning into 'simple-java-maven-app'...
+[8mha:////4IXgXr1RNG9FdClyr28xRkBddWyBKAvqqmXoDHbRE4TVAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyGUvHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzN4nqNv9p9o3geV5574AAAA=[0m[Pipeline] }
+[8mha:////4LkrCGrPf2+6fIznBuL/Q2Eg2UspxEhO5bN0wy4YDeAGAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICEh2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bq/le42+AAAA[0m[Pipeline] // stage
+[8mha:////4B2JRb2f2xTa6HGBEnFc5iwxe1i/tffoUvx88uAm+iqSAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJKgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHILYMxWb3OZZvBXXnAcEAAAA=[0m[Pipeline] stage
+[8mha:////4HlOdKFaAWzQh/CEXmjmSjDrTixtQ3l1gv932pj//FJoAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] { (Build)
+[8mha:////4IODWStCtpJ7gN+5DCmLhoKIGoWmayGCEhyzTGLQZJ/UAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/Pipeline_job/simple-java-maven-app
+[8mha:////4Ixw8z8Te665gLf7rAnH3Om5c9772FDFFdE4QweQfnoXAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] {
+[8mha:////4FD1skOt3vPVw7LdnBb+hYPlm2XQpdJ4+uX9mVhmUHpRAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiOhCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBr2eB0O+AAAA[0m[Pipeline] sh
++ mvn clean install
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------------< [0;36mcom.mycompany.app:my-app[0;1m >----------------------[m
+[[1;34mINFO[m] [1mBuilding my-app 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mmy-app[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.4.1:enforce[m [1m(enforce-maven)[m @ [36mmy-app[0;1m ---[m
+[[1;34mINFO[m] Rule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion passed
+[[1;34mINFO[m] Rule 1: org.apache.maven.enforcer.rules.version.RequireJavaVersion passed
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mmy-app[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/jenkins_home/workspace/Pipeline_job/simple-java-maven-app/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:compile[m [1m(default-compile)[m @ [36mmy-app[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module! :source
+[[1;34mINFO[m] Compiling 1 source file with javac [debug target 1.8] to target/classes
+[[1;33mWARNING[m] bootstrap class path not set in conjunction with -source 8
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mmy-app[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/jenkins_home/workspace/Pipeline_job/simple-java-maven-app/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:testCompile[m [1m(default-testCompile)[m @ [36mmy-app[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module! :dependency
+[[1;34mINFO[m] Compiling 1 source file with javac [debug target 1.8] to target/test-classes
+[[1;33mWARNING[m] bootstrap class path not set in conjunction with -source 8
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mmy-app[0;1m ---[m
+[[1;34mINFO[m] Surefire report directory: /var/jenkins_home/workspace/Pipeline_job/simple-java-maven-app/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.mycompany.app.AppTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.3.0:jar[m [1m(default-jar)[m @ [36mmy-app[0;1m ---[m
+[[1;34mINFO[m] Building jar: /var/jenkins_home/workspace/Pipeline_job/simple-java-maven-app/target/my-app-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mmy-app[0;1m ---[m
+[[1;34mINFO[m] Installing /var/jenkins_home/workspace/Pipeline_job/simple-java-maven-app/target/my-app-1.0-SNAPSHOT.jar to /root/.m2/repository/com/mycompany/app/my-app/1.0-SNAPSHOT/my-app-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /var/jenkins_home/workspace/Pipeline_job/simple-java-maven-app/pom.xml to /root/.m2/repository/com/mycompany/app/my-app/1.0-SNAPSHOT/my-app-1.0-SNAPSHOT.pom
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  2.682 s
+[[1;34mINFO[m] Finished at: 2023-10-18T10:11:43Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[0m[0m
+[8mha:////4Ay6+WJdMBku+PZnVXi4ac4trnjh5YbOu5lsbzB60A8pAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICVEgoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AEWNdkpvgAAAA==[0m[Pipeline] }
+[8mha:////4ErmZorhOgymdfhG1wCXGOaRAHJNLCaRsKzv4WQxTgJHAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0FAgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AEi+zpyvgAAAA==[0m[Pipeline] // dir
+[8mha:////4HFPlSL8J1V4LFb/4FZ4827c1XFLalYh3Du8fgNqjUokAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRKWgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AEauamDvgAAAA==[0m[Pipeline] }
+[8mha:////4N6xNrqGph2tFaqR6eEfQ5MWIw6Aq42jJUvQkGBWsjh0AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrdPtf28AEFO/zRvgAAAA==[0m[Pipeline] // stage
+[8mha:////4P8l31UGrvP1RgHwT4wKNq3JTecM9d+BTQkaOki5BSJAAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjoXSIitZywwtMYowT6y7YF5KKF/E1/oAhEhVb7ay0mucLyhThQNHJzmLvMTVeDmF0ucmJYn8JNMmOzrIhTBSs1HbS1NrjgprYwhJRwErB2mITKHl0DBvVmbupgkFXnTjmba+g8O0NHiBUNrOJ/IU5wvY6tonw5/krgHlgEDVDsas/x/INPbxT+8EAAAA=[0m[Pipeline] stage
+[8mha:////4CQ9AQT4lnenR3LJgjfAuY7c3xhDq/CJsk9WwV07pcK/AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQjAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/hYjrHCAAAA[0m[Pipeline] { (Test)
+[8mha:////4HWKLgKsY0soewcYq+faoGIm+yoJKumxc9UOOaSzq9h+AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQoIFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfACW9ZT2wgAAAA==[0m[Pipeline] dir
+Running in /var/jenkins_home/workspace/Pipeline_job/simple-java-maven-app
+[8mha:////4HJ6DXoh8daMiCUqhfACjS5D/s7+Fq2aMam6NGFHhCPUAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] {
+[8mha:////4DXjnyEgBsK512torO9gMBq0nkLHIptkWKdT3JtOLwLYAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0YCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGvZp0gvgAAAA==[0m[Pipeline] sh
++ mvn test
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------------< [0;36mcom.mycompany.app:my-app[0;1m >----------------------[m
+[[1;34mINFO[m] [1mBuilding my-app 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.4.1:enforce[m [1m(enforce-maven)[m @ [36mmy-app[0;1m ---[m
+[[1;34mINFO[m] Rule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion passed
+[[1;34mINFO[m] Rule 1: org.apache.maven.enforcer.rules.version.RequireJavaVersion passed
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mmy-app[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/jenkins_home/workspace/Pipeline_job/simple-java-maven-app/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:compile[m [1m(default-compile)[m @ [36mmy-app[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mmy-app[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/jenkins_home/workspace/Pipeline_job/simple-java-maven-app/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:testCompile[m [1m(default-testCompile)[m @ [36mmy-app[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mmy-app[0;1m ---[m
+[[1;34mINFO[m] Surefire report directory: /var/jenkins_home/workspace/Pipeline_job/simple-java-maven-app/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.mycompany.app.AppTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  1.296 s
+[[1;34mINFO[m] Finished at: 2023-10-18T10:11:46Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[0m[0m
+[8mha:////4Fr+X+cBWQIEgjYFdF/EPziMD9xYwttxxfWsSzKlcoTRAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0SCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQGMKkS1vgAAAA==[0m[Pipeline] }
+[8mha:////4N9KpaEObn7yA2dcxz7RMGql5eLLe8f8umEMIR3wRVjzAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCQKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9mQDtDvgAAAA==[0m[Pipeline] // dir
+[8mha:////4FHJEThzpYXf85EZ/dUjfSopKSvTkZZ7piuZwyjWdx+HAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AF5wm4RvgAAAA==[0m[Pipeline] }
+[8mha:////4GLB/uhZEQco78nu0DwAWc+CWLyMzh1mitY3EWtx22ldAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBTpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOW+zlUfPkGA/eC+AAAA[0m[Pipeline] // stage
+[8mha:////4HLGIDaB7TWY8b5c9k3l5BwSgN66PfwxetA+NUOi9C4UAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BKWgpeYRThA5R0VpueIGJjXFi3QX7QlLxIr7GHzBEomKrnZVW83xBlSIcKDrRWew9ptaLIYwuNzFR7C+BJtHRWbSEiYIVyk6KjD0uqIgtLClKWElYW2wDJY+OYSM7fdd10OjqE8e87SWU3tzgAYXMZtaRvzBH2F5Hkwh/nr8CmAeGYsdQNs3nWL0BMYchQMEAAAA=[0m[Pipeline] stage
+[8mha:////4D1P1RD8ukFNIPIK4lPyq11GoRqSpsn86zDcDuQX3DIbAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KBtiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPBdk7bsIAAAA=[0m[Pipeline] { (Build Remotely)
+[8mha:////4HSqu+t/UPistTRLPYRGvnmik//i5mFdIkrG2VDGP1z9AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSABWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBtZos2m+AAAA[0m[Pipeline] build
+Scheduling project: [8mha:////4LOZKnA4G6TnVTuR4i/hmC/gAnThWdeQD+nuIJEHeKppAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZJ/az8JP3c0pySTF2gnam6BZkFqSCGPgDG+98DzgAAAA==[0mmulti-line-pipeline
+Starting building: [8mha:////4PmCnOK8T7tyPa0ZvWl5qWLLpkJnvFR0cjnVhNZJavAuAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgZp/az8JP3c0pySTF2gnam6BZkFqSCGvpE+APuSpIbQAAAA[0mmulti-line-pipeline #2
+Build [8mha:////4PmCnOK8T7tyPa0ZvWl5qWLLpkJnvFR0cjnVhNZJavAuAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgZp/az8JP3c0pySTF2gnam6BZkFqSCGvpE+APuSpIbQAAAA[0mmulti-line-pipeline #2 completed: SUCCESS
+[8mha:////4EUdx7JF0qc9CzAojBKabdwSEbhhDTfvSy5Efh+tXojNAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7Nxbzd2K+AAAA[0m[Pipeline] }
+[8mha:////4LKW62g3qesLOAmOCmMmVZ8t9kqsDYOPck0/DSr+7kd+AAAApB+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSpLBwrGwZGk+ACSKE+Z8AkVSeyKt5B9HMWLnFzr5t3vMF6xjgSEEzq3AwGDvDvJt0WSxTGK6OMrN0YR1hJKeYUFlQr04LCkoKllQ1rDhsFHaOokGdYMutvMvGSdTNOYXyHTjUph/hARUv5iRD+sIcYHeb+kj48/wVwOx9grrdf6p9AxC1Tze+AAAA[0m[Pipeline] // stage
+[8mha:////4AFYTV1NQzFMAdJvDI0vCbmGAxgNDv8EMcshKMhZRecfAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpoEBCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AE/B/a+9AAAA[0m[Pipeline] }
+[8mha:////4Be3H3zIVh75lwkTM9WILB8f+FphEbLiKS6QIuwIbEh3AAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIUVI5jZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL/eCrPwAXH35DL0AAAA=[0m[Pipeline] // node
+[8mha:////4Bu1OpRjcHrMC3p+ovrzO++CtANo9XtEGEHiWX3Z2hD0AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBiA5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77eCbPcBAx/ra70AAAA=[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

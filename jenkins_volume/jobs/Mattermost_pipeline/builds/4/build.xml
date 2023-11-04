@@ -1,0 +1,333 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1348.v32a_a_f150910e">
+  <actions>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters>
+        <hudson.model.TextParameterValue>
+          <name>name</name>
+          <description>Enter a name (e.g. my-new-app.itn.intraorange)</description>
+          <value>my-new-app.itn.intraorange</value>
+        </hudson.model.TextParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>partition</name>
+          <description>Select a partition</description>
+          <value>ginis</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>site</name>
+          <description>Select a site</description>
+          <value>Normandie</value>
+        </hudson.model.StringParameterValue>
+      </parameters>
+      <parameterDefinitionNames>
+        <string>name</string>
+        <string>partition</string>
+        <string>site</string>
+      </parameterDefinitionNames>
+    </hudson.model.ParametersAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="pipeline-groovy-lib@689.veec561a_dee13">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction plugin="pipeline-model-definition@2.2144.v077a_d1928a_40">
+      <stagesUUID>a5879808-4021-42b7-a8fd-20c6476f54a3</stagesUUID>
+      <pipelineDefs>
+        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTPipelineDef plugin="pipeline-model-api@2.2144.v077a_d1928a_40">
+          <stages>
+            <stages>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <name>Build</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        <name>echo</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>message</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">Build is</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <name>Test</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        <name>echo</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>message</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">Test is</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+            </stages>
+            <uuid>a5879808-4021-42b7-a8fd-20c6476f54a3</uuid>
+          </stages>
+          <postBuild>
+            <conditions>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBuildCondition>
+                <condition>failure</condition>
+                <branch>
+                  <name>default</name>
+                  <steps>
+                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTScriptBlock>
+                      <name>script</name>
+                      <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                        <arguments class="linked-hash-map">
+                          <entry>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <key>scriptBlock</key>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                              <value class="string">def message = &quot;Job failed: ${currentBuild.fullDisplayName}&quot;
+                mattermostSend(
+                    message: message,
+                    webhookUrl: env.MATTERMOST_WEBHOOK_URL,
+                    channel: env.MATTERMOST_CHANNEL
+                )</value>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                          </entry>
+                        </arguments>
+                      </args>
+                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTScriptBlock>
+                  </steps>
+                </branch>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBuildCondition>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBuildCondition>
+                <condition>success</condition>
+                <branch>
+                  <name>default</name>
+                  <steps>
+                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTScriptBlock>
+                      <name>script</name>
+                      <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                        <arguments class="linked-hash-map">
+                          <entry>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <key>scriptBlock</key>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                              <value class="string">def message = &quot;Job passed: ${currentBuild.fullDisplayName}&quot;
+                mattermostSend(
+                    message: message,
+                    webhookUrl: env.MATTERMOST_WEBHOOK_URL,
+                    channel: env.MATTERMOST_CHANNEL
+                )</value>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                          </entry>
+                        </arguments>
+                      </args>
+                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTScriptBlock>
+                  </steps>
+                </branch>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBuildCondition>
+            </conditions>
+          </postBuild>
+          <environment>
+            <variables class="linked-hash-map">
+              <entry>
+                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                  <key>MATTERMOST_WEBHOOK_URL</key>
+                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTInternalFunctionCall>
+                  <name>credentials</name>
+                  <args>
+                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                      <value class="string">Mattermost</value>
+                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                  </args>
+                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTInternalFunctionCall>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                  <key>MATTERMOST_CHANNEL</key>
+                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                  <value class="string">Testing-Jenkins</value>
+                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+              </entry>
+            </variables>
+          </environment>
+          <agent>
+            <agentType>
+              <key>any</key>
+            </agentType>
+          </agent>
+        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTPipelineDef>
+      </pipelineDefs>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction>
+    <com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder plugin="credentials@1293.vff276f713473">
+      <boundCredentials class="concurrent-hash-map"/>
+    </com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@3802.vd42b_fcf00b_a_c">
+      <env class="tree-map"/>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+  </actions>
+  <queueId>971</queueId>
+  <timestamp>1698249382868</timestamp>
+  <startTime>1698249382897</startTime>
+  <result>FAILURE</result>
+  <duration>3087</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>FAILURE</result>
+    <script>pipeline {
+    agent any
+    
+    environment {
+        MATTERMOST_WEBHOOK_URL = credentials(&apos;Mattermost&apos;)
+        MATTERMOST_CHANNEL = &apos;Testing-Jenkins&apos;
+    }
+    
+    stages {
+        stage(&apos;Build&apos;) {
+            steps {
+                echo &quot;Build is&quot;
+            }
+        }
+        
+        stage(&apos;Test&apos;) {
+            steps {
+                echo &quot;Test is&quot;
+            }
+        }
+    }
+    
+    post {
+        failure {
+            script {
+                def message = &quot;Job failed: ${currentBuild.fullDisplayName}&quot;
+                mattermostSend(
+                    message: message,
+                    webhookUrl: env.MATTERMOST_WEBHOOK_URL,
+                    channel: env.MATTERMOST_CHANNEL
+                )
+            }
+        }
+        
+        success {
+            script {
+                def message = &quot;Job passed: ${currentBuild.fullDisplayName}&quot;
+                mattermostSend(
+                    message: message,
+                    webhookUrl: env.MATTERMOST_WEBHOOK_URL,
+                    channel: env.MATTERMOST_CHANNEL
+                )
+            }
+        }
+    }
+}
+</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>541801960</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>408848999</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>1446913907</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>190776237</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>487143700</long>
+      </entry>
+    </timings>
+    <internalCalls class="sorted-set">
+      <string>hudson.model.Result.fromString</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.SyntheticStageNames.postBuild</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.Utils.createStepsBlock</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.Utils.getCredsFromResolver</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.Utils.getRestartedStage</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.Utils.updateJobProperties</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.Utils.updateRunAndJobActions</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.agent.impl.Any.getScript</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.agent.impl.Any.hasScmContext</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.agent.impl.Any.isDoCheckout</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Agent.&lt;init&gt;</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Agent.getDeclarativeAgent</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Agent.populateMap</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Agent.rawClosure</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.BuildCondition.getCombinedResult</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.BuildCondition.orderedConditionNames</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.CredentialsBindingHandler.forId</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Environment$EnvironmentResolver.instanceFromMap</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Environment.&lt;init&gt;</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.PostBuild.&lt;init&gt;</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.PostBuild.closureForSatisfiedCondition</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.&lt;init&gt;</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.agent</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.astUUID</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.environment</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.hasSatisfiedConditions</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.libraries</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.options</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.parameters</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.post</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.triggers</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stage.&lt;init&gt;</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stages.&lt;init&gt;</string>
+      <string>org.jenkinsci.plugins.workflow.cps.EnvActionImpl.MATTERMOST_CHANNEL</string>
+      <string>org.jenkinsci.plugins.workflow.cps.EnvActionImpl.MATTERMOST_WEBHOOK_URL</string>
+      <string>org.jenkinsci.plugins.workflow.cps.persistence.IteratorHack$Itr.hasNext</string>
+      <string>org.jenkinsci.plugins.workflow.cps.persistence.IteratorHack$Itr.next</string>
+      <string>org.jenkinsci.plugins.workflow.job.WorkflowRun.result</string>
+      <string>org.jenkinsci.plugins.workflow.support.steps.build.RunWrapper.currentResult</string>
+      <string>org.jenkinsci.plugins.workflow.support.steps.build.RunWrapper.fullDisplayName</string>
+      <string>org.jenkinsci.plugins.workflow.support.steps.build.RunWrapper.rawBuild</string>
+      <string>org.jenkinsci.plugins.workflow.support.steps.build.RunWrapper.result</string>
+    </internalCalls>
+    <sandbox>true</sandbox>
+    <iota>16</iota>
+    <head>1:16</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

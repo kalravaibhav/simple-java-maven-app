@@ -1,0 +1,74 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1348.v32a_a_f150910e">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2144.v077a_d1928a_40"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2144.v077a_d1928a_40">
+      <jobProperties/>
+      <triggers/>
+      <parameters>
+        <string>confirmDeploy</string>
+        <string>azDeploy</string>
+        <string>deploymentName</string>
+      </parameters>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.StringParameterDefinition>
+          <name>deploymentName</name>
+          <description>Deployment Name ?</description>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.ChoiceParameterDefinition>
+          <name>azDeploy</name>
+          <description>What AZ ?</description>
+          <choices>
+            <string>EU-West-2A</string>
+            <string>EU-West-2B</string>
+            <string>EU-West-2C</string>
+          </choices>
+        </hudson.model.ChoiceParameterDefinition>
+        <hudson.model.BooleanParameterDefinition>
+          <name>confirmDeploy</name>
+          <description>Confirm Deployment</description>
+          <defaultValue>false</defaultValue>
+        </hudson.model.BooleanParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@3802.vd42b_fcf00b_a_c">
+    <script>pipeline {
+	
+	agent any 
+
+	parameters {
+
+		 string(defaultValue: &quot;&quot;, description: &quot;Deployment Name ?&quot;, name: &quot;deploymentName&quot;)
+		 choice(choices: [&quot;EU-West-2A&quot;, &quot;EU-West-2B&quot;, &quot;EU-West-2C&quot;], description: &quot;What AZ ?&quot;, name: &quot;azDeploy&quot;)
+		 booleanParam(defaultValue: false, description: &quot;Confirm Deployment&quot;, name: &quot;confirmDeploy&quot;)
+	}
+
+	stages {
+
+    	stage(&quot;Demo&quot;){
+    		steps{
+
+    			echo &quot;String is set to be: ${params.deploymentName} \n&quot;
+    			echo &quot;Choice is set to be: ${params.azDeploy} \n&quot;
+    			echo &quot;Boolean is set to be: ${params.confirmDeploy}&quot;
+
+    		}
+    	}
+
+	}
+}
+</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

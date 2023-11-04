@@ -1,0 +1,4 @@
+MultiBranch Pipeline/master
+MultiBranch_Pipeline_master
+MultiBranch Pipeline/newpipeline
+MultiBranch_Pipeline_newpipeline

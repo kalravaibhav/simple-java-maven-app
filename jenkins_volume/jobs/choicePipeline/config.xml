@@ -1,0 +1,59 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1348.v32a_a_f150910e">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2144.v077a_d1928a_40"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2144.v077a_d1928a_40">
+      <jobProperties/>
+      <triggers/>
+      <parameters>
+        <string>deployEnv</string>
+      </parameters>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.ChoiceParameterDefinition>
+          <name>deployEnv</name>
+          <description>which environment to deploy in</description>
+          <choices>
+            <string>TEST</string>
+            <string>DEV</string>
+            <string>QA</string>
+            <string>PRE-PROD</string>
+            <string>PROD</string>
+          </choices>
+        </hudson.model.ChoiceParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@3802.vd42b_fcf00b_a_c">
+    <script>pipeline {
+	
+	agent any 
+
+	parameters {
+
+		 choice(choices: [&quot;TEST&quot;, &quot;DEV&quot;, &quot;QA&quot;, &quot;PRE-PROD&quot;, &quot;PROD&quot;], description: &quot;which environment to deploy in&quot;, name: &quot;deployEnv&quot;)
+	}
+
+	stages {
+
+    	stage(&quot;Demo&quot;){
+    		steps{
+
+    			echo &quot;Choice is set to be: ${params.deployEnv}&quot;
+    		}
+    	}
+
+	}
+}
+</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

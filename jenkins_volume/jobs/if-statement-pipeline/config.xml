@@ -1,0 +1,68 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1348.v32a_a_f150910e">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2144.v077a_d1928a_40"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2144.v077a_d1928a_40">
+      <jobProperties/>
+      <triggers/>
+      <parameters>
+        <string>myBoolean</string>
+      </parameters>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.BooleanParameterDefinition>
+          <name>myBoolean</name>
+          <description>Enable Service</description>
+          <defaultValue>false</defaultValue>
+        </hudson.model.BooleanParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@3802.vd42b_fcf00b_a_c">
+    <script>pipeline {
+	
+	agent any 
+
+	parameters {
+
+		 booleanParam(defaultValue: false, description: &quot;Enable Service&quot;, name: &quot;myBoolean&quot;)
+	}
+
+	stages {
+
+    	stage(&quot;Demo&quot;){
+    		
+    		
+    		steps{
+    			script {
+
+    			// here we will create our if statement, using == for comparision 
+    			if(params.myBoolean == false){
+    				currentBuild.result = &quot;SUCCESS&quot;   // using jenkins function &quot;currentBuild.result&quot;
+    				return             // return will stop the pipeline completely
+    			}	// This could help when someone didn&apos;t checked the box and job is failing so job is stopped earlier at return
+
+    			else {
+    				echo &quot;Boolean is set to be: TRUE&quot;  // So if it&apos;s not set to false then go ahead and execute this 
+    			}
+    		}
+
+    			
+
+    		}
+    	}
+
+	}
+}
+</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

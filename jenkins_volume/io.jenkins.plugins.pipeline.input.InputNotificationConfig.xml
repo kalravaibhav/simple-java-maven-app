@@ -1,0 +1,4 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<io.jenkins.plugins.pipeline.input.InputNotificationConfig plugin="pipeline-input-notification@15.v175f12f20f9e">
+  <inputNotifiers/>
+</io.jenkins.plugins.pipeline.input.InputNotificationConfig>

@@ -1,0 +1,38 @@
+Started by user [8mha:////4Haz0tuJdNsmYY01HdI0ZoGppBSxc9Vj6GOm5i68gAm9AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+[8mha:////4F9hFt8lb14A4xtONg63Uv9kQ7EPusvMI8zsusDtltfBAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4B27UZFVG1yw7DFqgFog4fm6suLoAEvOtMH3N7FbNSgaAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4HmCxfkv7JPsf/kukjIAfYPe0P8Yc5PueCWTqkhzuOBQAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/workspace/Mattermost_pipeline
+[8mha:////4PQ6GHvTIpyJZRNQlS6qbyBxL/+eiWXstvV5hCEOereDAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4HxwTcsnzYILP/GgOX8t8wVfKidEDlDL+c1dVzxd+ApJAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4Jk4NAwSuZcGJ6HeD6ws5MdNVOoSlWXZbMavSCvq2WyeAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Build)
+[8mha:////4MNwtUXmjtg5W8h6388KaZQwSlbhGrhwV2Gf2U1mNFcbAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] script
+[8mha:////4BXV/gd5iejbzXzV1VK70Dyh/t3XL9ubdWj9S2W6IWjDAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] {
+[8mha:////4GROoYkyYDOtwaoLyMXNVFVlgoKN0bpT7Ncy7oyaTEC+AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAORZg+9pD/AAeoCAqvAAAAA==[0m[Pipeline] mattermostSend
+Mattermost Send Pipeline step configured values from global config - connector: false, icon: true, channel: false, color: falseERROR: Mattermost notification failed. See Jenkins logs for details.
+[8mha:////4E6MT7/ptfmG4PlTMQUAX9OJCh0cseQgxgvK5orQNbsVAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYO0G2F+S7bfcBITL9lL0AAAA=[0m[Pipeline] sh
++ mvn -B -DskipTests clean package
+[0m[0m[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.086 s
+[INFO] Finished at: 2023-10-25T15:59:33Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] The goal you specified requires a project to execute but there is no POM in this directory (/var/jenkins_home/workspace/Mattermost_pipeline). Please verify you invoked Maven from the correct directory. -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MissingProjectException
+[0m[0m
+[8mha:////4I1Fm5Wmrbscn7ZdDqGFMbFdEnPB2HHiGqTvg2UIBY4XAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KEzcQ4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9YJsL8jLsv8AYAPmjb0AAAA=[0m[Pipeline] mattermostSend
+Mattermost Send Pipeline step configured values from global config - connector: false, icon: true, channel: false, color: falseERROR: Mattermost notification failed. See Jenkins logs for details.
+[8mha:////4G8WSrBcp2h76K675cLbzakUPO9E00+oZHavXoXdZsdeAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRVEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsPzjQzob0AAAA=[0m[Pipeline] }
+[8mha:////4OepTYDafJsuEK+IXf0qtzTFPzLMlWewQ6MLqMAFXrQnAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRoqBAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AO8A7Ay9AAAA[0m[Pipeline] // script
+[8mha:////4CYfwH11xSfi4GN5AvKROju2tC3v3nXp0mMOQxJW2q44AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AGnsy8m9AAAA[0m[Pipeline] }
+[8mha:////4GrjLerXTFW2POF9HPcNBP3n0bNMMRl9f1hV4soNvArqAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiKMBZVjZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0g35eCrPwAY5Sibb0AAAA=[0m[Pipeline] // stage
+[8mha:////4DGNcm+yF/cwfcpq+5rV44qJn/aDFPP06vWwslkpHGD5AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9ACXeBV29AAAA[0m[Pipeline] }
+[8mha:////4DGW8guDldcYnlqVx9dD/eVTLx3EhftWRNvruIgI6CpmAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRoqBAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9ADZiAf69AAAA[0m[Pipeline] // node
+[8mha:////4CO0UsSUtv+zAfBkhu6tKrLHy9imtLlr/XgHSKf2H+RsAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRVEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsPccVWC70AAAA=[0m[Pipeline] End of Pipeline
+Finished: FAILURE

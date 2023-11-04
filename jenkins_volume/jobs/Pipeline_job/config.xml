@@ -1,0 +1,55 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1348.v32a_a_f150910e">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2144.v077a_d1928a_40"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2144.v077a_d1928a_40">
+      <jobProperties/>
+      <triggers/>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@3802.vd42b_fcf00b_a_c">
+    <script>pipeline {
+	agent any
+	stages {
+		stage(&quot;Cleanup&quot;){
+			steps {
+				deleteDir()
+			}
+		}
+		stage(&quot;Clone repo&quot;){
+			steps {
+				sh &quot;git clone https://github.com/jenkins-docs/simple-java-maven-app.git&quot;
+			}
+		}
+		stage(&quot;Build&quot;){
+			steps {
+				dir(&quot;simple-java-maven-app&quot;) {
+					sh &quot;mvn clean install&quot;
+				}
+			}
+		}
+		stage(&quot;Test&quot;){
+			steps {
+				dir(&quot;simple-java-maven-app&quot;) {
+					sh &quot;mvn test&quot;
+				}
+			}
+		}
+		stage(&quot;Build Remotely&quot;){
+			steps {
+				  build job: &apos;boolPipeline&apos;, parameters: [[$class: &apos;BooleanParameterValue&apos;, name: &apos;myBoolean&apos;, value: true]]
+				}
+			
+		}
+	}
+}</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

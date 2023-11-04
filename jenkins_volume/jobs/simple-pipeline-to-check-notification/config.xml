@@ -1,0 +1,80 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1348.v32a_a_f150910e">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2144.v077a_d1928a_40"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2144.v077a_d1928a_40">
+      <jobProperties/>
+      <triggers/>
+      <parameters>
+        <string>notificationType</string>
+      </parameters>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.ChoiceParameterDefinition>
+          <name>notificationType</name>
+          <description>Select notification type</description>
+          <choices class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>pass</string>
+              <string>fail</string>
+            </a>
+          </choices>
+        </hudson.model.ChoiceParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@3802.vd42b_fcf00b_a_c">
+    <script>pipeline {
+    agent any
+    parameters {
+        choice(
+            name: &apos;notificationType&apos;,
+            choices: [&apos;pass&apos;, &apos;fail&apos;],
+            description: &apos;Select notification type&apos;
+        )
+    }
+    stages {
+        stage(&apos;Build&apos;) {
+            steps {
+                echo &apos;Running build steps...&apos;
+            }
+        }
+    }
+    post {
+        always {
+            script {
+                if (currentBuild.resultIsBetterOrEqualTo(&apos;SUCCESS&apos;)) {
+                    echo &quot;Build has completed successfully.&quot;
+                    if (params.notificationType == &apos;fail&apos;) {
+                        mattermost(
+                            message: &quot;Job Succeeded: The build has succeeded.&quot;,
+                            serverUrl: &quot;https://mattermost.example.com&quot;, // Update with your Mattermost server URL
+                            channel: &quot;your-mattermost-channel&quot;, // Update with your Mattermost channel name
+                        )
+                    }
+                } else {
+                    echo &quot;Build has failed.&quot;
+                    if (params.notificationType == &apos;fail&apos;) {
+                        mattermost(
+                            message: &quot;Job Failed: The build has failed.&quot;,
+                            serverUrl: &quot;https://mattermost.tech.orange/hooks/crwpfskooj8cunsnsqnd9q1fec&quot;, // Update with your Mattermost server URL
+                            channel: &quot;Testing-Jenkins&quot;, // Update with your Mattermost channel name
+                        )
+                    }
+                }
+            }
+        }
+    }
+}
+</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

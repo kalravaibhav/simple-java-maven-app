@@ -1,0 +1,38 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@865.v43e78cc44e0d">
+  <node class="cps.n.StepAtomNode" plugin="workflow-cps@3802.vd42b_fcf00b_a_c">
+    <parentIds>
+      <string>10</string>
+    </parentIds>
+    <id>11</id>
+    <descriptorId>jenkins.plugins.mattermost.workflow.MattermostSendStep</descriptorId>
+  </node>
+  <actions>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@3802.vd42b_fcf00b_a_c">
+      <arguments>
+        <entry>
+          <string>channel</string>
+          <string>Build_BOT</string>
+        </entry>
+        <entry>
+          <string>endpoint</string>
+          <string>https://linktomattermost.com/hooks/yuwrgjeh38246239jkfh</string>
+        </entry>
+        <entry>
+          <string>color</string>
+          <string>#e00707</string>
+        </entry>
+        <entry>
+          <string>message</string>
+          <string>Build FAILED: Mattermost_pipeline #6 (&lt;http://localhost:8080/job/Mattermost_pipeline/6/|Link to build&gt;)</string>
+        </entry>
+      </arguments>
+      <sensitiveVariables/>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@1283.v99c10937efcb_">
+      <startTime>1698249574046</startTime>
+    </wf.a.TimingAction>
+    <s.a.LogStorageAction/>
+  </actions>
+</Tag>

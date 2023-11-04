@@ -1,0 +1,214 @@
+Branch indexing
+ > git rev-parse --resolve-git-dir /var/jenkins_home/caches/git-01384b7cac8d46fabdb2265edf3b442a/.git # timeout=10
+Setting origin to https://github.com/kalravaibhav/simple-java-maven-app.git
+ > git config remote.origin.url https://github.com/kalravaibhav/simple-java-maven-app.git # timeout=10
+Fetching origin...
+Fetching upstream changes from origin
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+ > git config --get remote.origin.url # timeout=10
+ > git fetch --tags --force --progress -- origin +refs/heads/*:refs/remotes/origin/* # timeout=10
+Seen branch in repository origin/master
+Seen branch in repository origin/newpipeline
+Seen 2 remote branches
+Obtained jenkins/Jenkinsfile from fbcac386ad2d71cd72f66f3d12266cc9da023647
+[8mha:////4F9hFt8lb14A4xtONg63Uv9kQ7EPusvMI8zsusDtltfBAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4B27UZFVG1yw7DFqgFog4fm6suLoAEvOtMH3N7FbNSgaAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4HmCxfkv7JPsf/kukjIAfYPe0P8Yc5PueCWTqkhzuOBQAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/jenkins_home/workspace/MultiBranch_Pipeline_newpipeline
+[8mha:////4PQ6GHvTIpyJZRNQlS6qbyBxL/+eiWXstvV5hCEOereDAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4HxwTcsnzYILP/GgOX8t8wVfKidEDlDL+c1dVzxd+ApJAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4Jk4NAwSuZcGJ6HeD6ws5MdNVOoSlWXZbMavSCvq2WyeAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4DEm/cUzDyMPkkCTMVUWjV8qpngV6TKo9dw+cC2agGn/AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://github.com/kalravaibhav/simple-java-maven-app.git
+ > git init /var/jenkins_home/workspace/MultiBranch_Pipeline_newpipeline # timeout=10
+Fetching upstream changes from https://github.com/kalravaibhav/simple-java-maven-app.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+ > git fetch --no-tags --force --progress -- https://github.com/kalravaibhav/simple-java-maven-app.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/kalravaibhav/simple-java-maven-app.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+Checking out Revision fbcac386ad2d71cd72f66f3d12266cc9da023647 (newpipeline)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f fbcac386ad2d71cd72f66f3d12266cc9da023647 # timeout=10
+Commit message: "Added complete job stage"
+First time build. Skipping changelog.
+[8mha:////4Le/s/76cyKRqoIsffBHnAagEFAcTcGzUsw83A+9ST19AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4GquBaYYVAXxbHbFutmPrbQ3yffRsnAmTEXt4i5Y56xgAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4J6TiFN/qsixHIKFhffYbweY59ZFrHymK5epsNdyYnphAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4GNQ1Tp39SQuKU0tkM+NJfbnpm3vG49d7juIYpBAsojrAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4B4Sz1HWisWGNFgz9J0lVzGK75RtVQ9KZbT10hoJAtrtAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4DRiuGZaeR4l7GWbZVTddGp3Itq2mup4F5c496+7cQ5vAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (Build)
+[8mha:////4HiOVWC2BXIgl01W8K9VMzyz2Ah/gEEhPkiNKI8P0P76AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] sh
++ mvn -B -DskipTests clean package
+[0m[0m[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.mycompany.app:my-app >----------------------
+[INFO] Building my-app 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ my-app ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.4.1:enforce (enforce-maven) @ my-app ---
+[INFO] Rule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion passed
+[INFO] Rule 1: org.apache.maven.enforcer.rules.version.RequireJavaVersion passed
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ my-app ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/MultiBranch_Pipeline_newpipeline/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ my-app ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 1 source file with javac [debug target 1.8] to target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ my-app ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/MultiBranch_Pipeline_newpipeline/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:testCompile (default-testCompile) @ my-app ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 1 source file with javac [debug target 1.8] to target/test-classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ my-app ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:3.3.0:jar (default-jar) @ my-app ---
+[INFO] Building jar: /var/jenkins_home/workspace/MultiBranch_Pipeline_newpipeline/target/my-app-1.0-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.352 s
+[INFO] Finished at: 2023-10-13T19:12:28Z
+[INFO] ------------------------------------------------------------------------
+[0m[0m
+[8mha:////4Oo+kk0CyoO8K5AY/sZWSOaOqwTOv0TK/BkFP4ninroCAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N7BnLt++AAAA[0m[Pipeline] }
+[8mha:////4E8qaBUdPc8gbTV6GLRjB+IlzwEiS8Ikqnp7yIqPbdq2AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N4glvS6+AAAA[0m[Pipeline] // stage
+[8mha:////4Ft1NTKnvYZB3PtlZ5FDSH3nk3R28Ss72hmpNNbTsoLsAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUnRgQE2uUhROEJoSk0f9tkpJOnIircQdaKjHhwbItWe/1hioGOFEwzGnsLMbWst6PZk4sU+hunjJzdGUtYSSvmdBZkNLntQpKGlYVJWw4bDW2nqJFk2DHnXzI2ks09SWFeTtyKK0a4AkFn8lJhvQtU4D9fVSR8Mf5C4CpT1A2zWKH5Vl9ANydZ8vCAAAA[0m[Pipeline] stage
+[8mha:////4Ixw8z8Te665gLf7rAnH3Om5c9772FDFFdE4QweQfnoXAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] { (Test)
+[8mha:////4FD1skOt3vPVw7LdnBb+hYPlm2XQpdJ4+uX9mVhmUHpRAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiOhCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBr2eB0O+AAAA[0m[Pipeline] sh
++ mvn test
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------------< [0;36mcom.mycompany.app:my-app[0;1m >----------------------[m
+[[1;34mINFO[m] [1mBuilding my-app 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.4.1:enforce[m [1m(enforce-maven)[m @ [36mmy-app[0;1m ---[m
+[[1;34mINFO[m] Rule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion passed
+[[1;34mINFO[m] Rule 1: org.apache.maven.enforcer.rules.version.RequireJavaVersion passed
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mmy-app[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/jenkins_home/workspace/MultiBranch_Pipeline_newpipeline/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:compile[m [1m(default-compile)[m @ [36mmy-app[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mmy-app[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/jenkins_home/workspace/MultiBranch_Pipeline_newpipeline/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:testCompile[m [1m(default-testCompile)[m @ [36mmy-app[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mmy-app[0;1m ---[m
+[[1;34mINFO[m] Surefire report directory: /var/jenkins_home/workspace/MultiBranch_Pipeline_newpipeline/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.mycompany.app.AppTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  1.944 s
+[[1;34mINFO[m] Finished at: 2023-10-13T19:12:33Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[0m[0m
+Post stage
+[8mha:////4GlK2XdIejxvSJV5gtuo0SN64X+mXsIrPZoUluwSfyYVAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICVEgoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AGtm4OQvgAAAA==[0m[Pipeline] junit
+Recording test results
+[Checks API] No suitable checks publisher found.
+[8mha:////4OVikw5ejFJAiVUNkBwg0GoaVd7bUP/ETr6zQmoIqIl7AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiUCEhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AGz5oXivgAAAA==[0m[Pipeline] }
+[8mha:////4N/GtEL7fXcoIQPIfmJjX1GMbVzsQK+RQopADgKWcptdAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRaSgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AGMia70vgAAAA==[0m[Pipeline] // stage
+[8mha:////4EY3CMhsrY3kihmFsfqSqzHUQHA4lCr3TvmnygJJ7C0iAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUhRExdY26cILQhJA0+r8kKenEibgadyBQiQkPlm3Jes8XVMHDkbxmVuFgMPSGjW7SObFEfrg4SszSmfWEgZxinUodSdUutaOoYFFRworDWmHvKBjUETbciruonUBdn6LP24FDaeQNHlDwTI7Cx2+ZPWyvkwyEP85fAMxjhLJpsu32n2f1BlfFHmHCAAAA[0m[Pipeline] stage
+[8mha:////4IGCG0DxD95X8hSee+dbuM/HN0ldbSMUNPxawxZogAyhAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAd6e6VPCAAAA[0m[Pipeline] { (Deliver)
+[8mha:////4NfI1a02fzNghori8fLILFnNSyc2RAHYGKXYpscfAu/WAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN38C26S+AAAA[0m[Pipeline] sh
++ ./jenkins/scripts/deliver.sh
+The following Maven command installs your Maven-built Java application
+into the local Maven repository, which will ultimately be stored in
+Jenkinss local Maven repository (and the "maven-repository" Docker data
+volume).
++ mvn jar:jar install:install help:evaluate -Dexpression=project.name
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------------< [0;36mcom.mycompany.app:my-app[0;1m >----------------------[m
+[[1;34mINFO[m] [1mBuilding my-app 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.3.0:jar[m [1m(default-cli)[m @ [36mmy-app[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-cli)[m @ [36mmy-app[0;1m ---[m
+[[1;34mINFO[m] Installing /var/jenkins_home/workspace/MultiBranch_Pipeline_newpipeline/target/my-app-1.0-SNAPSHOT.jar to /root/.m2/repository/com/mycompany/app/my-app/1.0-SNAPSHOT/my-app-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /var/jenkins_home/workspace/MultiBranch_Pipeline_newpipeline/pom.xml to /root/.m2/repository/com/mycompany/app/my-app/1.0-SNAPSHOT/my-app-1.0-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------------< [0;36mcom.mycompany.app:my-app[0;1m >----------------------[m
+[[1;34mINFO[m] [1mBuilding my-app 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-help-plugin:3.4.0:evaluate[m [1m(default-cli)[m @ [36mmy-app[0;1m ---[m
+[[1;34mINFO[m] No artifact parameter specified, using 'com.mycompany.app:my-app:jar:1.0-SNAPSHOT' as project.
+[[1;34mINFO[m] 
+my-app
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  1.013 s
+[[1;34mINFO[m] Finished at: 2023-10-13T19:12:36Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[0m[0m+ set +x
+The following complex command extracts the value of the <name/> element
+within <project/> of your Java/Maven projects "pom.xml" file.
+++ mvn help:evaluate -Dexpression=project.name
+++ grep '^[^\[]'
+[0m+ NAME='my-app
+[0m'
++ set +x
+The following complex command behaves similarly to the previous one but
+extracts the value of the <version/> element within <project/> instead.
+++ mvn help:evaluate -Dexpression=project.version
+++ grep '^[^\[]'
+[0m+ VERSION='1.0-SNAPSHOT
+[0m'
++ set +x
+The following command runs and outputs the execution of your Java
+application (which Jenkins built using Maven) to the Jenkins UI.
++ java -jar target/my-app-1.0-SNAPSHOT.jar
+Hello World!
+[8mha:////4DjahlhweY/RsrMLzNiR+syYMNg/XnfAbwINZVhu7jD6AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQHjyRvdvgAAAA==[0m[Pipeline] }
+[8mha:////4Kjf1X6dH9BVAimUkksSrDFsXfcg4N3e1dOApUTGgCEPAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQUGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQHljyOIvgAAAA==[0m[Pipeline] // stage
+[8mha:////4KCPOokgkc9n2ytMN6z2HLWyoMkPJmw//9fKUTLk+ewrAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUJCTF2jLpwgNCEkjf4vSUo6cSKuxh0IVGLCg2Vbst7zBVXwcCSvmVU4GAy9YaObdE4skR8ujhKzdGY9YSCnWKdSR1K1S+0oKlhUlLDisFbYOwoGdYQNt+IuaidQ16fo83bgUBp5gwcUPJOj8PFbZg/b6yQD4Y/zFwDzGKFsmmy7/edZvQGUNdkLwgAAAA==[0m[Pipeline] stage
+[8mha:////4IxeDEmJUD9UUPD4EhdxFasmYZkdf30qRnKs487o7ssXAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0QKVszCAAAA[0m[Pipeline] { (Complete Job)
+[8mha:////4DxwI5kOD3zjHuVgo4mVH3KEF7OQz1/TD0gZukdFGvucAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AHN/bm5vgAAAA==[0m[Pipeline] echo
+Job Complete
+[8mha:////4AiLwOxLNYev5kTGEC3TA/CnpMkbcqdFHdj/nL99J4dBAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AFSjtgYvgAAAA==[0m[Pipeline] }
+[8mha:////4H7AhM8fukwkh+nKSb/KhHRQo2/BpUhD66aX/pS6UOGYAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihQYJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5r3PVhw9qzEvpvgAAAA==[0m[Pipeline] // stage
+[8mha:////4MR2Y9EzIPWza2XfdUHhBHjcGVnSVwGrwuEYLdeg/4wHAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJRlBJR0VppeIGJjXFi3Tn2haTiRXyNP2ARiYotVjvbzOsN2xThRNGK3uDgMHVOBD/ZvMRMcbh5mkVPV9ERJvJGtGZuSZvzii2xgTVFCRsJO4Odp+TQMuxlrx6q8gptdeGYv6OE0ukRnlDIbGYV+QtLhMN90onw5/krgCUEhrJpctX1B6j05nC+AAAA[0m[Pipeline] }
+[8mha:////4At9+Cqcxf/NJeP5T5f3PUIROGIzDM88ilnxBmvvX1htAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICgg6lorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQrk/5NptP4b05Bq+AAAA[0m[Pipeline] // withEnv
+[8mha:////4KXhR5mmj/fOYXbO1qRLCUamMfWxlSxq7FZF2QV9gwWXAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIUauVY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMXSfIt3tBtvsA/gVtV70AAAA=[0m[Pipeline] }
+[8mha:////4Fk3jfxOg+lHX2Qf66Xe1dKAHE6Wm9aHGjHAgyHNUFIDAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IMJC7GybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FebkXZOUHjeqpjr0AAAA=[0m[Pipeline] // node
+[8mha:////4HmD5q1jpDZwLtoNxzmyhdjG1uotFqLEpt5Zofpk1O5TAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRoKBAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+AKvzzsS9AAAA[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

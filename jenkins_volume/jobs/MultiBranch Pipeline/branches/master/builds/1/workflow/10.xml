@@ -1,0 +1,30 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@865.v43e78cc44e0d">
+  <node class="cps.n.StepStartNode" plugin="workflow-cps@3802.vd42b_fcf00b_a_c">
+    <parentIds>
+      <string>9</string>
+    </parentIds>
+    <id>10</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.EnvStep</descriptorId>
+  </node>
+  <actions>
+    <s.a.LogStorageAction/>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@3802.vd42b_fcf00b_a_c">
+      <arguments>
+        <entry>
+          <string>overrides</string>
+          <list>
+            <string>GIT_BRANCH=master</string>
+            <string>GIT_COMMIT=fbcac386ad2d71cd72f66f3d12266cc9da023647</string>
+            <string>GIT_URL=https://github.com/kalravaibhav/simple-java-maven-app.git</string>
+          </list>
+        </entry>
+      </arguments>
+      <sensitiveVariables/>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@1283.v99c10937efcb_">
+      <startTime>1697223942793</startTime>
+    </wf.a.TimingAction>
+  </actions>
+</Tag>

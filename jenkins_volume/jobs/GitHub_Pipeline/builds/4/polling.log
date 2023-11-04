@@ -1,0 +1,13 @@
+Started on Oct 13, 2023, 11:59:00 AM
+Using strategy: Default
+[poll] Last Built Revision: Revision f14f72b08d34283c769b26c7df07ce6054e2c3cf (refs/remotes/origin/master)
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+ > git ls-remote -h -- https://github.com/kalravaibhav/simple-java-maven-app.git # timeout=10
+Found 1 remote heads on https://github.com/kalravaibhav/simple-java-maven-app.git
+[poll] Latest remote head revision on refs/heads/master is: fbcac386ad2d71cd72f66f3d12266cc9da023647
+Done. Took 1.9 sec
+Changes found

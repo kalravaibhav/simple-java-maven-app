@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 11
+Specification-Title: Pipeline Input Step Notification Plugin
+Specification-Version: 0.0
+Implementation-Title: Pipeline Input Step Notification Plugin
+Implementation-Version: 15.v175f12f20f9e
+Group-Id: io.jenkins.plugins
+Short-Name: pipeline-input-notification
+Long-Name: Pipeline Input Step Notification Plugin
+Url: https://github.com/jenkinsci/pipeline-input-notification-plugin
+Plugin-Version: 15.v175f12f20f9e
+Hudson-Version: 2.361.4
+Jenkins-Version: 2.361.4
+Plugin-Dependencies: okhttp-api:4.9.3-108.v0feda04578cf,workflow-cps:358
+ 3.v4f58de0d78d5,pipeline-input-step:466.v6d0a_5df34f81
+Plugin-Developers: Jasper Yue:jasper:yuezhuangshi@outlook.com,ningning:n
+ ingcharlie:nnbql99125@163.com
+Plugin-License-Name: MIT License
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmUrl: https://github.com/jenkinsci/pipeline-input-notification-
+ plugin
+

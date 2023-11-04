@@ -1,0 +1,29 @@
+Started by timer
+[Sat Nov 04 08:03:10 UTC 2023] Starting branch indexing...
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+ > git ls-remote --symref -- https://github.com/kalravaibhav/simple-java-maven-app.git # timeout=10
+ > git rev-parse --resolve-git-dir /var/jenkins_home/caches/git-01384b7cac8d46fabdb2265edf3b442a/.git # timeout=10
+Setting origin to https://github.com/kalravaibhav/simple-java-maven-app.git
+ > git config remote.origin.url https://github.com/kalravaibhav/simple-java-maven-app.git # timeout=10
+Fetching & pruning origin...
+Listing remote references...
+ > git config --get remote.origin.url # timeout=10
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.2'
+ > git ls-remote -h -- https://github.com/kalravaibhav/simple-java-maven-app.git # timeout=10
+Fetching upstream changes from origin
+ > git config --get remote.origin.url # timeout=10
+ > git fetch --tags --force --progress --prune -- origin +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking branches...
+  Checking branch newpipeline
+      ‘jenkins/Jenkinsfile’ found
+    Met criteria
+No changes detected: newpipeline (still at 64c6dbae92314ef46a77638516f288e0c1ff0c1f)
+  Checking branch master
+      ‘jenkins/Jenkinsfile’ found
+    Met criteria
+No changes detected: master (still at fbcac386ad2d71cd72f66f3d12266cc9da023647)
+Processed 2 branches
+[Sat Nov 04 08:03:13 UTC 2023] Finished branch indexing. Indexing took 3 sec
+Finished: SUCCESS
